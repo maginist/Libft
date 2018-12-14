@@ -6,7 +6,7 @@
 #    By: floblanc <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/12 10:09:35 by floblanc          #+#    #+#              #
-#    Updated: 2018/12/05 13:27:14 by maginist         ###   ########.fr        #
+#    Updated: 2018/12/14 15:29:17 by maginist         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,7 +72,8 @@ SRCS = ft_memset.c\
 	   ft_lstmap.c\
 	   ft_tabdel.c\
 	   ft_puttab.c\
-	   ft_tab3size.c
+	   ft_tab3size.c\
+	   ft_putnbr_base.c
 
 OBJS = $(SRCS:.c=.o)
 
